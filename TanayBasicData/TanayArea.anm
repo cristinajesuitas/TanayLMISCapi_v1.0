@@ -1,0 +1,34 @@
+[Area Names]			
+Version=CSPro 7.1			
+
+[Levels]			
+Name=Region		
+Name=Province
+Name=Municipal
+Name=Barangay
+Name=Enumeration Area			
+
+[Areas]			
+4	XX	XX	XXX	XXX	=	REGION IV-A (CALABARZON)
+4	58	XX	XXX	XXX	=	RIZAL
+4	58	12	XXX	XXX	=	TANAY
+4	58	12	001	XXX	=	Cayabu
+4	58	12	002	XXX	=	Cuyambay
+4	58	12	003	XXX	=	Daraitan
+4	58	12	004	XXX	=	Katipunan-Bayan (Pob.)
+4	58	12	005	XXX	=	Kaybuto (Pob.)
+4	58	12	006	XXX	=	Laiban
+4	58	12	007	XXX	=	Mag-Ampon (Pob.)
+4	58	12	008	XXX	=	Mamuyao
+4	58	12	009	XXX	=	Pinagkamaligan (Pob.)
+4	58	12	011	XXX	=	Plaza Aldea (Pob.)
+4	58	12	012	XXX	=	Sampaloc
+4	58	12	013	XXX	=	San Andres
+4	58	12	014	XXX	=	San Isidro (Pob.)
+4	58	12	015	XXX	=	Santa Inez
+4	58	12	016	XXX	=	Santo Niño
+4	58	12	017	XXX	=	Tabing Ilog (Pob.)
+4	58	12	017	004	=	Tabing Ilog (Pob.) Sec004
+4	58	12	018	XXX	=	Tandang Kutyo (Pob.)
+4	58	12	019	XXX	=	Tinucan
+4	58	12	020	XXX	=	Wawa (Pob.)

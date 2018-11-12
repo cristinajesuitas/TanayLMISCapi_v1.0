@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Tabulation
+Operation=All
+
+[Files]
+Application=.\TabulationData.xtb
+InputData=..\Data\Population.csdb
+OutputTBW=.\TabulationData.xtb.tbw
+AreaNames=..\TanayArea.anm
+Listing=.\TabulationData.xtb.lst
+
+
+[Parameters]
+ViewListing=OnError
+ViewResults=No
+InputOrder=Sequential
+

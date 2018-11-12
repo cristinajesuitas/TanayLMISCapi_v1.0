@@ -1,0 +1,19 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Batch
+
+[Files]
+Application=.\BasicDataBatchEdit.bch
+InputData=..\Data\Population.csdb|CSPRODB
+OutputData=..\Data\BatchEdit.csdb|CSPRODB
+Listing=.\BasicDataBatchEdit.lst
+
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=80
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential
+

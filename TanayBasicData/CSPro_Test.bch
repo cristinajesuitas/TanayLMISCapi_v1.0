@@ -1,0 +1,18 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=TANAYBASICDATA
+Name=TANAYBASICDATA
+AppType=Batch
+[External Dictionaries]
+File=..\TanayLMISCapi\TanayLMIS_Capi_v1\Dictionary\1 - Geocode\GEOCODE.dcf
+File=..\TanayLMISCapi\TanayLMIS_Capi_v1\Dictionary\3 - Country\Country.dcf
+[AppCode]
+File=.\TanayBasicData.ent.apc
+[Message]
+File=.\TanayBasicData.ent.mgf
+[Order]
+File=.\CSPro_Test.ord
+[Dictionary Types]
+Dict-Type=.\BasicData\Inhabitant.dcf,Input,.\CSPro_Test.ord
+Dict-Type=..\TanayLMISCapi\TanayLMIS_Capi_v1\Dictionary\1 - Geocode\GEOCODE.dcf,External
+Dict-Type=..\TanayLMISCapi\TanayLMIS_Capi_v1\Dictionary\3 - Country\Country.dcf,External

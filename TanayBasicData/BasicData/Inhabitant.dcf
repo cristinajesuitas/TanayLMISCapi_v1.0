@@ -1,0 +1,578 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Inhabitant
+Name=INHABITANT_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Inhabitant questionnaire
+Name=INHABITANT_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region
+Name=BI_REGION
+Start=2
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Region
+Name=BI_REGION_VS1
+Link=112522592
+Value=1;REGION I (ILOCOS REGION)
+Value=2;REGION II (CAGAYAN VALLEY)
+Value=3;REGION III (CENTRAL LUZON)
+Value=4;REGION IV-A (CALABARZON)
+Value=5;REGION V (BICOL REGION)
+Value=6;REGION VI (WESTERN VISAYAS)
+Value=7;REGION VII (CENTRAL VISAYAS)
+Value=8;REGION VIII (EASTERN VISAYAS)
+Value=9;REGION IX (ZAMBOANGA PENINSULA)
+Value=10;REGION X (NORTHERN MINDANAO)
+Value=11;REGION XI (DAVAO REGION)
+Value=12;REGION XII (SOCCSKSARGEN)
+Value=13;NATIONAL CAPITAL REGION (NCR)
+Value=14;CORDILLERA ADMINISTRATIVE REGION (CAR)
+Value=15;AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)
+Value=16;REGION XIII (Caraga)
+Value=17;MIMAROPA REGION
+
+[Item]
+Label=Province
+Name=BI_PROVINCE
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Municipal
+Name=BI_MUNICIPAL
+Start=6
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Barangay
+Name=BI_BARANGAY
+Start=8
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Classification
+Name=BI_CLASS
+Start=11
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Enumeration Area
+Name=BI_EA
+Start=12
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Segment
+Name=BI_SEGMENT
+Start=15
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Household Number
+Name=BI_HH_NUMBER
+Start=18
+Len=4
+ZeroFill=Yes
+
+[Record]
+Label=Inhabitant record
+Name=INHABITANT_REC
+RecordTypeValue='B'
+MaxRecords=10
+RecordLen=276
+
+[Item]
+Label=Name
+Name=BI_NAME
+Start=22
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Firstname
+Name=BI_FNAME
+Start=22
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Middlename
+Name=BI_MNAME
+Start=47
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Lastname
+Name=BI_LNAME
+Start=72
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Address
+Name=BI_ADDRESS
+Start=97
+Len=142
+DataType=Alpha
+
+[Item]
+Label=Unit Number
+Name=BI_UNIT_NO
+Start=97
+Len=5
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Lot Number
+Name=BI_LOT_NO
+Start=102
+Len=3
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Block Number
+Name=BI_BLOCK_NO
+Start=105
+Len=3
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Phase Number
+Name=BI_PHASE_NO
+Start=108
+Len=3
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Floor Number
+Name=BI_FLOOR_NO
+Start=111
+Len=3
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=House Number
+Name=BI_HOUSE_NO
+Start=114
+Len=5
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Building or Apartment Name
+Name=BI_BUILDING_NAME
+Start=119
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Subdivision Name
+Name=BI_SUBDIVISION_NAME
+Start=149
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Streetname
+Name=BI_STREETNAME
+Start=179
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Sitio or Purok
+Name=BI_SITIO_NAME
+Start=209
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Date of Birth
+Name=BI_DATE_OF_BIRTH
+Start=239
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Age
+Name=BI_AGE
+Start=247
+Len=3
+
+[ValueSet]
+Label=Age
+Name=BI_AGE_VS
+Value=0:120
+
+[ValueSet]
+Label=Age
+Name=BI_AGE_5Y_INTERVAL
+Value=0:4;0-4 years
+Value=0;0
+Value=1;1
+Value=2;2
+Value=3;3
+Value=4;4
+Value=5:9;5-9 years
+Value=5;5
+Value=6;6
+Value=7;7
+Value=8;8
+Value=9;9
+Value=10:14;10-14
+Value=10;10
+Value=11;11
+Value=12;12
+Value=13;13
+Value=14;14
+Value=15:19;15-19
+Value=15;15
+Value=16;16
+Value=17;17
+Value=18;18
+Value=19;19
+Value=20:24;20-24
+Value=20;20
+Value=21;21
+Value=22;22
+Value=23;23
+Value=24;24
+Value=25:29;25-29
+Value=25;25
+Value=26;26
+Value=27;27
+Value=28;28
+Value=29;29
+Value=30:34;30-34
+Value=30;30
+Value=31;31
+Value=32;32
+Value=33;33
+Value=34;34
+Value=35:39;35-39
+Value=35;35
+Value=36;36
+Value=37;37
+Value=38;38
+Value=39;39
+Value=40:44;40-44
+Value=40;40
+Value=41;41
+Value=42;42
+Value=43;43
+Value=44;44
+Value=45:49;45-49
+Value=45;45
+Value=46;46
+Value=47;47
+Value=48;48
+Value=49;49
+Value=50:54;50-54
+Value=50;50
+Value=51;51
+Value=52;52
+Value=53;53
+Value=54;54
+Value=55:59;55-59
+Value=55;55
+Value=56;56
+Value=57;57
+Value=58;58
+Value=59;59
+Value=60:64;60-64
+Value=60;60
+Value=61;61
+Value=62;62
+Value=63;63
+Value=64;64
+Value=65:69;65-69
+Value=65;65
+Value=66;66
+Value=67;67
+Value=68;68
+Value=69;69
+Value=70:74;70-74
+Value=70;70
+Value=71;71
+Value=72;72
+Value=73;73
+Value=74;74
+Value=75:79;75-79
+Value=75;75
+Value=76;76
+Value=77;77
+Value=78;78
+Value=79;79
+Value=80:120;80+
+Value=80;80
+Value=81;81
+Value=82;82
+Value=83;83
+Value=84;84
+
+[ValueSet]
+Label=Age
+Name=BI_AGE_CATEGORY
+Value=0;Infant
+Value=1:12;Child
+Value=13:19;Teenager
+Value=20:59;Adult
+Value=60:120;Senior
+
+[ValueSet]
+Label=Age
+Name=BI_AGE_10Y_INTERVAL
+Value=0:9;0 - 9
+Value=10:19;10 - 19
+Value=20:29;20 - 29
+Value=30:39;30 - 39
+Value=40:49;40 - 49
+Value=50:59;50 - 59
+Value=60:69;60 - 69
+Value=70:79;70 - 79
+Value=80:89;80 - 89
+Value=90:99;90 - 99
+Value=100:109;100 - 109
+Value=110:119;110 - 119
+Value=120;120 - 120
+
+[Item]
+Label=Place of Birth
+Name=BI_PLACE_OF_BIRTH
+Start=250
+Len=10
+DataType=Alpha
+
+[Item]
+Label=World Continent
+Name=BI_CONTINENT
+Start=250
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=World Continent
+Name=BI_CONTINENT_VS
+Value=1;Africa
+Value=2;Asia
+Value=3;Australia/Oceania
+Value=4;Europe
+Value=5;North America
+Value=6;South America
+
+[Item]
+Label=Country
+Name=BI_COUNTRY
+Start=251
+Len=3
+ItemType=SubItem
+
+[Item]
+Label=Region Birth
+Name=BI_REGION_BIRTH
+Start=254
+Len=2
+ItemType=SubItem
+
+[ValueSet]
+Label=Region Birth
+Name=BI_REGION_BIRTH_VS1
+Link=112522592
+
+[Item]
+Label=Province Birth
+Name=BI_PROVINCE_BIRTH
+Start=256
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Municipal Birth
+Name=BI_MUNICIPAL_BIRTH
+Start=258
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Sex
+Name=BI_SEX
+Start=260
+Len=1
+
+[ValueSet]
+Label=Sex
+Name=BI_SEX_VS
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Nationality
+Name=BI_NATIONALITY
+Start=261
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Nationality
+Name=BI_NATIONALITY_VS1
+Value=1;Filipino
+
+[Item]
+Label=Civil Status
+Name=BI_CIVIL_STATUS
+Start=264
+Len=1
+
+[ValueSet]
+Label=Civil Status
+Name=BI_CIVIL_STATUS_VS1
+Value=1;Single
+Value=2;Married
+Value=3;Widowed
+Value=4;Separated
+Value=5;Living-in
+Value=6;Unknown
+
+[Item]
+Label=Religion
+Name=BI_RELIGION
+Start=265
+Len=3
+
+[Item]
+Label=Ethinicity
+Name=BI_ETHINICITY
+Start=268
+Len=1
+
+[Item]
+Label=Highest Level of Education Completed
+Name=BI_EDUCATION
+Start=269
+Len=2
+
+[Item]
+Label=Occupation
+Name=BI_OCCUPATION
+Start=271
+Len=2
+
+[Item]
+Label=Disability
+Name=BI_DISABILITY
+Start=273
+Len=1
+
+[Item]
+Label=Relationship to Household
+Name=BI_RELATIONSHIP
+Start=274
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Relationship
+Name=BI_RELATIONSHIP_VS3
+Value=1;Head
+Value=2;Spouse
+Value=3;Son
+Value=4;Daughter
+Value=5;Stepson
+Value=6;Stepdaughter
+Value=7;Son-in-Law
+Value=8;Daughter-in-Law
+Value=9;Grandson
+Value=10;Granddaughter
+Value=11;Father
+Value=12;Mother
+Value=13;Brother
+Value=14;Sister
+Value=15;Uncle
+Value=16;Aunt
+Value=17;Nephew
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[ValueSet]
+Label=Relationship
+Name=BI_RELATIONSHIP_MALE
+Value=1;Head
+Value=2;Husband
+Value=3;Son
+Value=5;Stepson
+Value=7;Son-in-Law
+Value=9;Grandson
+Value=11;Father
+Value=13;Brother
+Value=15;Uncle
+Value=17;Nephew
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[ValueSet]
+Label=Relationship
+Name=BI_RELATIONSHIP_FEMALE
+Value=1;Head
+Value=2;Wife
+Value=4;Daughter
+Value=6;Stepdaughter
+Value=8;Daughter-in-Law
+Value=10;Granddaughter
+Value=12;Mother
+Value=14;Sister
+Value=16;Aunt
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[Item]
+Label=Add Household Member
+Name=ADD_HOUSEHOLD_MEMBER
+Start=276
+Len=1
+
+[ValueSet]
+Label=Add Household Member
+Name=ADD_HOUSEHOLD_MEMBER_VS1
+Value=1;Yes, keep population row
+Value=2;No, delete population row

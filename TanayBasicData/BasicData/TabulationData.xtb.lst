@@ -1,0 +1,76 @@
+﻿Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\TabulationData.xtb
+Type            Tab
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Population.csdb                                                                                                                                                                                                             
+Output          C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\Population.csdb.tab
+
+Date            Nov  9, 2018
+Start Time      11:42:17
+End Time        11:42:18
+
+CSPRO Process Summary
+          +-----------------------------------------------------+
+          |       3 Records Read ( 100% of input file)          |
+          |       0 Ignored (       0 unknown,        0 erased) |
+          |       0 Messages (       0 U,       0 W,       0 E) |
+          +---------+--------------+--------------+-------------+
+          |  Level  |  Input Case  |  Bad Struct  |  Level Post |
+          +---------+--------------+--------------+-------------+
+          |     1   |          3   |          0   |          3  |
+          +---------+--------------+--------------+-------------+                                                     
+                                                                                
+                                                                                
+                                                                                
+
+Process Messages
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\TabulationData.xtb
+Type            Consolidate
+Input Data      C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\Population.csdb.tab
+Output          C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\Population.csdb.con.tab
+
+Date            Nov 09,2018
+Start Time      11:42:18
+End Time        11:42:18
+End Time        11:42:18
+
+CSPro Process Summary
+          +----------------------------------------------+
+          |         8 Slices Read ( 100% of Input file)  |
+          +----------------------------------------------+
+
+
+Process Messages
+
+BI_REGIO BI_PROVI BI_MUNIC BI_BARAN Table Names
+-------- -------- -------- -------- -----------
+                                    CIVIL_STATUS_BY_SEX TABLE1 TABLE4 TABLE6
+      4                             CIVIL_STATUS_BY_SEX TABLE4 TABLE6
+      45       8                    CIVIL_STATUS_BY_SEX TABLE4 TABLE6
+      45       81       2           CIVIL_STATUS_BY_SEX TABLE4 TABLE6
+      45       81       20       17 CIVIL_STATUS_BY_SEX TABLE4 TABLE6
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\TabulationData.xtb
+Type            Format
+Input Data      C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\Population.csdb.con.tab
+Output          C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\BasicData\TabulationData.xtb.tbw
+
+Date            Nov  9, 2018
+Start Time      11:42:18
+End Time        11:42:18
+
+CSPRO Process Summary
+          +-----------------------------------------------------+
+          |     244 Slices  Read ( 100% of input file)          |
+          |       0 Ignored (       0 unknown,        0 erased) |
+          |       0 Messages (       0 U,       0 W,       0 E) |
+          +-----------------------------------------------------+
+                                                                         
+
+Process Messages
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

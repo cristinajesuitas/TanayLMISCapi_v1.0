@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Pack
+
+[Files]
+Application=.\TanayBasicData.ent
+ZipFile=.\TanayBasicData.zip
+Listing=.\CSPack.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+PackInclude=VSImages,Resources,InputFile,ExternalFiles,UserFiles
+Silent=No
+

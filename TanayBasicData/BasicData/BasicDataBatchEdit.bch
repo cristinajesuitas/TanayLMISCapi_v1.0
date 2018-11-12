@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=BASICDATABATCHEDIT
+Name=BASICDATABATCHEDIT
+AppType=Batch
+[AppCode]
+File=.\BasicDataBatchEdit.bch.apc
+[Message]
+File=.\BasicDataBatchEdit.bch.mgf
+[Order]
+File=.\BasicDataBatchEdit.ord
+[Dictionary Types]
+Dict-Type=.\Inhabitant.dcf,Input,.\BasicDataBatchEdit.ord

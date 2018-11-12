@@ -1,0 +1,23 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Batch
+
+[Files]
+Application=.\CSPro_Test.bch
+InputData=.\Data\Population.csdb|CSPRODB
+OutputData=|NONE
+Listing=.\CSPro_Test.lst
+
+[ExternalFiles]
+COUNTRY_DICT=..\TanayLMISCapi\TanayLMIS_Capi_v1\Data\Country.csdb|CSPRODB
+GEOCODE_DICT=..\TanayLMISCapi\TanayLMIS_Capi_v1\Data\Geocode.csdb|CSPRODB
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+CheckRanges=Yes
+ListingWidth=80
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential
+

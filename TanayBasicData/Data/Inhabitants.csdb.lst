@@ -1,0 +1,271 @@
+﻿Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      12:10:31
+End Time        12:10:57
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      12:11:28
+End Time        13:43:06
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      13:43:13
+End Time        13:46:11
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      13:46:15
+End Time        14:08:33
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:08:40
+End Time        14:10:52
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:17:09
+End Time        14:18:22
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  90003            1   Number of '%' arguments passed (%d) does not matc
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+
+A compilation error file (.ERR) has been created for your application.
+
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:18:31
+End Time        14:18:49
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  90003            1   Number of '%' arguments passed (%d) does not matc
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+
+A compilation error file (.ERR) has been created for your application.
+
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:22:04
+End Time        14:23:03
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  90003            1   Number of '%' arguments passed (%d) does not matc
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+
+A compilation error file (.ERR) has been created for your application.
+
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:28:20
+End Time        14:39:32
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       3    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      14:39:37
+End Time        14:39:55
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      16:27:57
+End Time        16:28:43
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     51       2    -   Geo code lookup has invalid structure on line: re       -
+     98       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\TanayBasicData.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Inhabitants.csdb
+External        GEOCODE_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Geocode.csdb
+External        COUNTRY_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicData\Data\Country.csdb
+
+Date            Nov  9, 2018
+Start Time      16:32:01
+End Time        16:33:55
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     51       1    -   Geo code lookup has invalid structure on line: re       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

@@ -1,0 +1,42 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=COUNTRY Dictionary
+Name=COUNTRY_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=COUNTRY Level
+Name=COUNTRY_LEVEL
+
+[IdItems]
+
+[Item]
+Label=COUNTRY_CONTINENT
+Name=COUNTRY_CONTINENT
+Start=1
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=COUNTRY_COUNTRY
+Name=COUNTRY_COUNTRY
+Start=2
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=COUNTRY Record
+Name=COUNTRY_REC
+RecordTypeValue=''
+RecordLen=36
+
+[Item]
+Label=COUNTRY_NAME
+Name=COUNTRY_NAME
+Start=5
+Len=32
+DataType=Alpha

@@ -1,0 +1,133 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.1
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=INHABITANT_DICT.ADD_HOUSEHOLD_MEMBER
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is there another member of this household?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_CIVIL_STATUS
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \cf2\b %BI_FNAME%\cf1\b0  single, married, widowed or separated\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_CONTINENT
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Where was\cf2\b  %BI_FNAME%\cf1\b0  born?  Please start from country of Birth?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_DATE_OF_BIRTH
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 When was\cf2\b  %BI_FNAME%\cf1\b0  was born MM/DD/YYYY?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_DISABILITY
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Does \cf2\b %BI_FNAME%\cf1\b0  have any disability?  What is %SexPronoun% disability?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_EDUCATION
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the highest level of education completed by \cf2\b %BI_FNAME%\cf1\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_ETHINICITY
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \cf2\b %BI_FNAME%\cf1\b0  Tagalog, Bicolano, Bisaya, Muslim, etc?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_FNAME
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Who are the members of this household starting from the Household Head?\par
+EN=Please state the Firstname, Middlename and Lastname\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_NATIONALITY
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \cf2\b %BI_FNAME%\cf1\b0  a Filipino?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_OCCUPATION
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is \cf2\b %BI_FNAME%\cf1\b0 's occupation in the past 12 months?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_RELATIONSHIP
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is \cf2\b %BI_FNAME%\cf1\b0 's relationship to Household head?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_RELIGION
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the religion of \cf2\b %BI_FNAME%\cf1\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_SEX
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \cf2\b %BI_FNAME%\cf1\b0  male or female?\par
+EN=}
+
+[QUESTION]
+Field=INHABITANT_DICT.BI_UNIT_NO
+Occurrences=1:10
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red255\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Please state \cf2\b %BI_FNAME%\cf1\b0 's address\par
+EN=}
+

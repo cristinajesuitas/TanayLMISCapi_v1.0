@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=TABULATIONDATA
+Name=TABULATIONDATA
+AppType=Tabulation
+[External Dictionaries]
+File=.\TabulationData.xtb.wrk.dcf
+[AppCode]
+File=.\TabulationData.xtb.apc
+[Message]
+File=.\TabulationData.xtb.mgf
+[TabSpecs]
+File=.\TabulationData.xts
+[Dictionary Types]
+Dict-Type=.\TabulationData.xtb.wrk.dcf,Working

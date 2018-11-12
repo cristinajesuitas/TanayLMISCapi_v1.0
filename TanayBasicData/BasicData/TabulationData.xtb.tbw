@@ -1,0 +1,1191 @@
+﻿[TabSpecs]
+Version=CSPro 7.1
+Label=TabulationData
+Name=TABULATIONDATA_TF
+GenerateLogic=Yes
+InputDataFilename=Population.csdb
+ 
+[Dictionaries]
+File=.\Inhabitant.dcf
+ 
+[AreaStructure]
+Names=BI_REGION,BI_PROVINCE,BI_MUNICIPAL,BI_BARANGAY
+Standard=Yes
+LowestLevel=BI_BARANGAY
+ 
+[ConSpec]
+Name=TOTAL
+ 
+[ConSpec]
+Name=BI_REGION
+Level=BI_REGION
+ 
+[ConSpec]
+Name=BI_PROVINCE
+Level=BI_REGION
+Level=BI_PROVINCE
+ 
+[ConSpec]
+Name=BI_MUNICIPAL
+Level=BI_REGION
+Level=BI_PROVINCE
+Level=BI_MUNICIPAL
+ 
+[ConSpec]
+Name=BI_BARANGAY
+Level=BI_REGION
+Level=BI_PROVINCE
+Level=BI_MUNICIPAL
+Level=BI_BARANGAY
+ 
+[TabSetFormat]
+Name=TabSetFmt, default
+ThousandsSeparator=','
+DecimalSeparator='.'
+ZeroMask='-'
+ZeroRoundMask='*'
+Suppressed='SSS'
+DigitGrouping=Thousands
+ZeroBeforeDecimal=Yes
+ForeignKey='Frequency'
+ForeignKey='and'
+ForeignKey='to'
+ForeignKey='Total'
+ForeignKey='Standard Deviation'
+ForeignKey='by'
+ForeignKey='(Percents)'
+ForeignKey='Mean'
+ForeignKey='Maximum'
+ForeignKey='Table'
+ForeignKey='for'
+ForeignKey='Percentile'
+ForeignKey='Mode'
+ForeignKey='Minimum'
+ForeignKey='Proportion'
+ForeignKey='Median'
+ForeignKey='Variance'
+ForeignKey='Percent'
+ForeignKey='Undefined'
+ForeignKey='(Weighted)'
+ForeignKey='Cumulative'
+ForeignKey='<Value has no label>'
+ForeignKey='Number'
+TitleTemplate='Table 1.'
+Continuation=''
+MeasurementSystem=MetricUnits
+
+[TableFormat]
+Name=TableFmt, default
+BorderLeft=None
+BorderTop=None
+BorderRight=None
+BorderBottom=None
+LeftLeadering=None
+RightLeadering=None
+ReaderBreak=None
+IncludeSubTitle=No
+IncludePageNote=No
+IncludeEndNote=No
+
+[TableFormat]
+Name=TableFmt, 1
+BorderLeft=Thin
+BorderTop=Thin
+BorderRight=Thin
+BorderBottom=Thin
+LeftLeadering=None
+ReaderBreak=None
+IncludeSubTitle=Yes
+IncludePageNote=No
+IncludeEndNote=No
+
+
+[TallyFormat]
+Name=RowTallyFmt, default
+IncludeUndefined=No
+DumpUndefined=No
+[TallyStatistic]
+Type=Total
+
+[TallyStatistic]
+Type=Counts
+
+
+[TallyFormat]
+Name=ColumnTallyFmt, default
+IncludeUndefined=No
+DumpUndefined=No
+[TallyStatistic]
+Type=Total
+
+[TallyStatistic]
+Type=Counts
+
+
+[TallyFormat]
+Name=RowTallyFmt, 5
+[TallyStatistic]
+Type=Counts
+
+[TallyStatistic]
+Type=Total
+
+
+[TallyFormat]
+Name=ColumnTallyFmt, 7
+[TallyStatistic]
+Type=Counts
+
+[TallyStatistic]
+Type=Total
+
+
+[TallyFormat]
+Name=RowTallyFmt, 7
+[TallyStatistic]
+Type=Counts
+
+[TallyStatistic]
+Type=Total
+
+
+[TallyFormat]
+Name=ColumnTallyFmt, 24
+[TallyStatistic]
+Type=Total
+
+
+[TallyFormat]
+Name=ColumnTallyFmt, 25
+[TallyStatistic]
+Type=Total
+
+
+[TablePrintFormat]
+Name=TblPrintFmt, default
+TableLayout=LeftStandard
+PageBreakBeforeTable=Yes
+TblHorzCenter=No
+TblVertCenter=No
+PaperType=Letter
+PageOrientation=Portrait
+PrinterDevice=Microsoft XPS Document Writer
+PrinterDriver=winspool
+PrinterOutput=PORTPROMPT:
+MarginTop=2.54
+MarginBottom=2.54
+MarginLeft=2.54
+MarginRight=2.54
+HeaderFrequency=TopOfPage
+
+[DataCellFormat]
+Name=SpannerFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Center
+VertAlign=Middle
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=Thin
+LineBottom=Thin
+LineLeft=Thin
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+ExtendLines=Yes
+NumDecimals=NotApplicable
+HideZeroRow=No
+
+[DataCellFormat]
+Name=ColumnHeadFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Right
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=Thin
+LineBottom=Thin
+LineLeft=Thin
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+ExtendIndentation=Yes
+NumDecimals=Zero
+HideZeroRow=No
+
+[DataCellFormat]
+Name=CaptionFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Middle
+TextColor=0
+FillColor=16777215
+IndentLeft=0.32
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=No
+NumDecimals=NotApplicable
+HideZeroRow=No
+
+[DataCellFormat]
+Name=StubFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+ExtendFont=Yes
+NumDecimals=Zero
+HideZeroRow=No
+
+[DataCellFormat]
+Name=DataCellFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Right
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=NotApplicable
+LineBottom=NotApplicable
+LineLeft=NotApplicable
+LineRight=NotApplicable
+Hidden=NotApplicable
+SpanCells=NotApplicable
+NumDecimals=Zero
+HideZeroRow=No
+
+[Format]
+Name=TitleFmt, default
+Font=-016 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+
+[Format]
+Name=SubTitleFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+
+[Format]
+Name=StubHead, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Middle
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=Thin
+LineBottom=Thin
+LineLeft=None
+LineRight=Thin
+Hidden=No
+SpanCells=NotApplicable
+ExtendLines=Yes
+
+[Format]
+Name=SecondaryStubHead, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Right
+VertAlign=Middle
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=Thin
+LineBottom=Thin
+LineLeft=Thin
+LineRight=Thin
+Hidden=No
+SpanCells=NotApplicable
+ExtendLines=Yes
+
+[Format]
+Name=HeaderLeftFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=&F
+
+[Format]
+Name=HeaderCenterFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Center
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=
+
+[Format]
+Name=HeaderRightFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Right
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=&D
+
+[Format]
+Name=FooterLeftFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=
+
+[Format]
+Name=FooterCenterFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Center
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=- &P -
+
+[Format]
+Name=FooterRightFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Right
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+Custom=
+
+[Format]
+Name=PageNoteFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+
+[Format]
+Name=EndNoteFmt, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Top
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=NotApplicable
+
+[Format]
+Name=AreaCaption, default
+Font=-013 0000 0000 0000 0400 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+HorzAlign=Left
+VertAlign=Bottom
+TextColor=0
+FillColor=16777215
+IndentLeft=0.00
+IndentRight=0.00
+LineTop=None
+LineBottom=None
+LineLeft=None
+LineRight=None
+Hidden=No
+SpanCells=No
+ExtendLines=Yes
+
+[Format]
+Name=AreaCaption, 1
+HorzAlign=Left
+VertAlign=Middle
+IndentLeft=0.00
+IndentRight=0.00
+Hidden=No
+SpanCells=No
+ExtendLines=Yes
+
+ 
+[Table]
+Name=CIVIL_STATUS_BY_SEX
+Num=3
+ 
+Format=TableFmt, 1
+[Title]
+Label='Table 1. Civil Status by Sex'
+PrintViewSize=9288,276,-72,-36,-72,-36,0,0,No,No
+ 
+[SubTitle]
+Label=''
+PrintViewSize=9288,0,-72,-36,-72,-36,0,0,No,No
+ 
+[PageNote]
+Label=''
+ 
+[EndNote]
+Label=''
+ 
+[HeaderLeft]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[HeaderCenter]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[HeaderRight]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterLeft]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterCenter]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterRight]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[StubHead]
+Label='Civil Status'
+PrintViewSize=1565,478,917,442,991,221,0,0,No,No
+ 
+[SecondaryStubHead]
+Label=''
+ 
+[AreaCaption]
+Label='%AreaName%'
+Format=AreaCaption, 1
+ 
+[OneRowColTotal]
+Label=''
+ 
+ 
+[Rows]
+ 
+[Variable]
+Name=BI_CIVIL_STATUS_VS1
+Label=Civil Status
+VarType=Dict
+Format=RowTallyFmt, 5
+ 
+[Value]
+Label=Single
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,550,221,550,221,0,0,No,No
+ 
+[Value]
+Label=Married
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,674,221,674,221,0,0,No,No
+ 
+[Value]
+Label=Widowed
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,826,221,826,221,0,0,No,No
+ 
+[Value]
+Label=Separated
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,917,221,917,221,0,0,No,No
+ 
+[Value]
+Label=Living-in
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,737,221,737,221,0,0,No,No
+ 
+[Value]
+Label=Unknown
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1565,221,830,221,830,221,0,0,No,No
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=1
+PrintViewSize=1565,221,422,221,422,221,0,0,No,No
+ 
+[EndVar]
+ 
+[Cols]
+ 
+[Variable]
+Name=BI_SEX_VS
+Label=Sex
+VarType=Dict
+PrintViewSize=7651,221,343,221,343,221,7308,0,No,No
+Format=ColumnTallyFmt, 7
+ 
+[Value]
+Label=Male
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=2502,221,430,221,430,221,2072,0,No,No
+ 
+[Value]
+Label=Female
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=2502,221,667,221,667,221,1835,0,No,No
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=1
+PrintViewSize=2503,221,422,221,422,221,2081,0,No,No
+ 
+[EndVar]
+ 
+[Data]
+ 
+[Cells]
+TableName=CIVIL_STATUS_BY_SEX
+AreaName=
+BreakKey=---------
+Size=7,3
+Row=1.000000000  1.000000000  2.000000000
+Row=.000000000  1.000000000  1.000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=1.000000000  2.000000000  3.000000000
+ 
+[Cells]
+TableName=CIVIL_STATUS_BY_SEX
+AreaName=
+BreakKey=04-------
+Size=7,3
+Row=1.000000000  1.000000000  2.000000000
+Row=.000000000  1.000000000  1.000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=1.000000000  2.000000000  3.000000000
+ 
+[Cells]
+TableName=CIVIL_STATUS_BY_SEX
+AreaName=
+BreakKey=0458-----
+Size=7,3
+Row=1.000000000  1.000000000  2.000000000
+Row=.000000000  1.000000000  1.000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=1.000000000  2.000000000  3.000000000
+ 
+[Cells]
+TableName=CIVIL_STATUS_BY_SEX
+AreaName=
+BreakKey=045812---
+Size=7,3
+Row=1.000000000  1.000000000  2.000000000
+Row=.000000000  1.000000000  1.000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=1.000000000  2.000000000  3.000000000
+ 
+[Cells]
+TableName=CIVIL_STATUS_BY_SEX
+AreaName=                Tabing Ilog (Pob.)
+BreakKey=04;58;12;017
+Size=7,3
+Row=1.000000000  1.000000000  2.000000000
+Row=.000000000  1.000000000  1.000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=.000000000  .000000000  .000000000
+Row=1.000000000  2.000000000  3.000000000
+ 
+[Table]
+Name=TABLE4
+Num=4
+ 
+[Title]
+Label='Table 1. Sex'
+PrintViewSize=9288,276,-72,-36,-72,-36,0,0,No,No
+ 
+[SubTitle]
+Label=''
+PrintViewSize=9288,0,-72,-36,-72,-36,0,0,No,No
+ 
+[PageNote]
+Label=''
+ 
+[EndNote]
+Label=''
+ 
+[HeaderLeft]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[HeaderCenter]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[HeaderRight]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterLeft]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterCenter]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[FooterRight]
+Label=''
+PrintViewSize=3048,221,-72,-36,-72,-36,0,0,No,No
+ 
+[StubHead]
+Label='Sex'
+PrintViewSize=1315,221,667,221,343,221,0,0,No,No
+ 
+[SecondaryStubHead]
+Label=''
+ 
+[AreaCaption]
+Label='%AreaName%'
+ 
+[OneRowColTotal]
+Label=''
+ 
+ 
+[Rows]
+ 
+[Variable]
+Name=BI_SEX_VS
+Label=Sex
+VarType=Dict
+Format=RowTallyFmt, 7
+ 
+[Value]
+Label=Male
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1315,221,430,221,430,221,0,0,No,No
+ 
+[Value]
+Label=Female
+TabValueType=VSetValue
+TabValueStatIndex=0
+PrintViewSize=1315,221,667,221,667,221,0,0,No,No
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=1
+PrintViewSize=1315,221,422,221,422,221,0,0,No,No
+ 
+[EndVar]
+ 
+[Cols]
+ 
+[Variable]
+Name=SYSTEM_TOTAL
+Label=System Total
+VarType=Dict
+Format=ColumnTallyFmt, 24
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=0
+PrintViewSize=7901,221,422,221,422,221,7479,0,No,No
+ 
+[EndVar]
+ 
+[Data]
+ 
+[Cells]
+TableName=TABLE4
+AreaName=
+BreakKey=---------
+Size=3,1
+Row=1.000000000
+Row=2.000000000
+Row=3.000000000
+ 
+[Cells]
+TableName=TABLE4
+AreaName=
+BreakKey=04-------
+Size=3,1
+Row=1.000000000
+Row=2.000000000
+Row=3.000000000
+ 
+[Cells]
+TableName=TABLE4
+AreaName=
+BreakKey=0458-----
+Size=3,1
+Row=1.000000000
+Row=2.000000000
+Row=3.000000000
+ 
+[Cells]
+TableName=TABLE4
+AreaName=
+BreakKey=045812---
+Size=3,1
+Row=1.000000000
+Row=2.000000000
+Row=3.000000000
+ 
+[Cells]
+TableName=TABLE4
+AreaName=                Tabing Ilog (Pob.)
+BreakKey=04;58;12;017
+Size=3,1
+Row=1.000000000
+Row=2.000000000
+Row=3.000000000
+ 
+[Table]
+Name=TABLE6
+Num=6
+ 
+[Title]
+Label='Table 1. Region'
+ 
+[SubTitle]
+Label=''
+ 
+[PageNote]
+Label=''
+ 
+[EndNote]
+Label=''
+ 
+[HeaderLeft]
+Label=''
+ 
+[HeaderCenter]
+Label=''
+ 
+[HeaderRight]
+Label=''
+ 
+[FooterLeft]
+Label=''
+ 
+[FooterCenter]
+Label=''
+ 
+[FooterRight]
+Label=''
+ 
+[StubHead]
+Label='Region'
+ 
+[SecondaryStubHead]
+Label=''
+ 
+[AreaCaption]
+Label='%AreaName%'
+ 
+[OneRowColTotal]
+Label=''
+ 
+ 
+[Rows]
+ 
+[Variable]
+Name=BI_REGION_VS1
+Label=Region
+VarType=Dict
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=0
+ 
+[Value]
+Label=REGION I (ILOCOS REGION)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION II (CAGAYAN VALLEY)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION III (CENTRAL LUZON)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION IV-A (CALABARZON)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION V (BICOL REGION)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION VI (WESTERN VISAYAS)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION VII (CENTRAL VISAYAS)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION VIII (EASTERN VISAYAS)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION IX (ZAMBOANGA PENINSULA)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION X (NORTHERN MINDANAO)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION XI (DAVAO REGION)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION XII (SOCCSKSARGEN)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=NATIONAL CAPITAL REGION (NCR)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=CORDILLERA ADMINISTRATIVE REGION (CAR)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=REGION XIII (Caraga)
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[Value]
+Label=MIMAROPA REGION
+TabValueType=VSetValue
+TabValueStatIndex=1
+ 
+[EndVar]
+ 
+[Cols]
+ 
+[Variable]
+Name=SYSTEM_TOTAL
+Label=System Total
+VarType=Dict
+Format=ColumnTallyFmt, 25
+ 
+[Value]
+Label=Total
+TabValueType=Total
+TabValueStatIndex=0
+ 
+[EndVar]
+ 
+[Data]
+ 
+[Cells]
+TableName=TABLE6
+AreaName=
+BreakKey=---------
+Size=18,1
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+ 
+[Cells]
+TableName=TABLE6
+AreaName=
+BreakKey=04-------
+Size=18,1
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+ 
+[Cells]
+TableName=TABLE6
+AreaName=
+BreakKey=0458-----
+Size=18,1
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+ 
+[Cells]
+TableName=TABLE6
+AreaName=
+BreakKey=045812---
+Size=18,1
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+ 
+[Cells]
+TableName=TABLE6
+AreaName=                Tabing Ilog (Pob.)
+BreakKey=04;58;12;017
+Size=18,1
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=3.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+Row=.000000000
+ 
+[Table]
+Name=TABLE7
+Num=7
+ 
+[Title]
+Label='Table 1. '
+ 
+[SubTitle]
+Label=''
+ 
+[PageNote]
+Label=''
+ 
+[EndNote]
+Label=''
+ 
+[HeaderLeft]
+Label=''
+ 
+[HeaderCenter]
+Label=''
+ 
+[HeaderRight]
+Label=''
+ 
+[FooterLeft]
+Label=''
+ 
+[FooterCenter]
+Label=''
+ 
+[FooterRight]
+Label=''
+ 
+[StubHead]
+Label=''
+ 
+[SecondaryStubHead]
+Label=''
+ 
+[AreaCaption]
+Label='%AreaName%'
+ 
+[OneRowColTotal]
+Label=''
+ 
+ 
+[Data]
+ 
+[Level]
+Table=CIVIL_STATUS_BY_SEX
+Table=TABLE4
+Table=TABLE6
+Table=TABLE7
